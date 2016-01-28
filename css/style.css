@@ -9,17 +9,20 @@ html {
 body {
   font-size: 14px;
   font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #332;
+  /*color: #332;*/
+  color: #909090;
+  background-color: #121212;
 }
 
 h1, h2, h3, h4, h5 {
-  color: #332;
+  color: #909090;
   font-family: "Signika";
   font-weight: 400;
   line-height: 1.1;
 }
 
 pre code {
+  color: #909090;
   font: 15px/19px Inconsolata, Monaco,"Lucida Console",Terminal,"Courier New",Courier;
 }
 
@@ -36,13 +39,13 @@ hr {
 }
 
 .author {
-  color: #006;
+  color: #909090;
   font-weight: bold;
 }
 
 /* TOC Links */
-a { 
-  color: #111111;
+a {
+  color: #909090;
   text-decoration: none;
 }
 
@@ -50,19 +53,19 @@ a {
   text-decoration: underline;
 }
 
-.toc a { 
+.toc a {
   text-decoration: none;
   font-size: 8pt;
   line-height: 0.9;
 }
 
-.toc a:hover { 
+.toc a:hover {
   text-decoration: underline;
 }
 
 /* Body Links */
- 
-p a { 
+
+p a {
   text-decoration: underline;
 }
 
@@ -92,8 +95,8 @@ li code, p code, table code {
 }
 
 .table-striped .striped-header td {
-  padding-left: 10px; 
-  padding-right: 10px; 
+  padding-left: 10px;
+  padding-right: 10px;
   font-weight: bold;
   font-size: 8pt;
 }
@@ -209,6 +212,9 @@ code.sourceCode {
 pre.sourceCode {
     padding: 10px;
 }
+
+code > span.fu { color: #0688ce; } /* Function */
+
 
 ul.sections > li > div {
     -moz-box-sizing: border-box;    /* firefox */
